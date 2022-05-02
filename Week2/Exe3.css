@@ -23,11 +23,10 @@
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana;
     column-width: 50%;
     border-radius: 20px;
     border: 3px solid #666;
-    box-shadow: 3px 3px 3px green;
     background-color: red;
 }
 .column3{
@@ -39,12 +38,11 @@
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact;
     column-width: 50%;
     border-radius: 20px;
     border: 3px solid #666;
-    box-shadow: 3px 3px 3px grey;
-    background-color: blue;
+        background-color: blue;
 }
 .column4{
     padding-top: 25px;
@@ -59,6 +57,11 @@
     column-width: 50%;
     border-radius: 20px;
     border: 3px solid #666;
-    box-shadow: 3px 3px 3px grey;
     background-color: violet;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 30% 40% 25%;
+    grid-template-rows: auto;
 }
