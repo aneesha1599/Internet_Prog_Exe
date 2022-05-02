@@ -1,7 +1,7 @@
 .grid
 {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto;
 }
 .header {
@@ -11,7 +11,7 @@
     }
 .nav {
     background-color: yellow;
-    padding: 10px;
+    padding: 30px;
 
     }
 .main {
